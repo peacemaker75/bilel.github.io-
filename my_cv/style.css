@@ -1,0 +1,199 @@
+/* general */
+*
+{
+    margin: 0;
+    font-family: 'Poppins';
+}
+body {
+    font-family: 'Poppins-Regular'
+}
+
+h3{
+    margin-bottom: 20px;
+}
+
+/*header navigation*/
+
+header {
+    height: 70px;
+    background-color: #0475ba;
+}
+
+header h2{
+    float: left;
+    margin-top: 18px;
+    margin-left: 20px;
+    color: white;
+}
+
+header nav{
+    float: left;
+    margin-top: 26px;
+}
+
+header nav ul li {
+    float: left;
+    display: inline-block;
+
+
+}
+
+header nav ul li a {
+    font-weight: bold;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+section{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*en-tete*/
+
+#en-tete div{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 300px;
+    justify-content: center;
+}
+
+.nomination{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nomination h1{
+    margin-top: 60px;
+}
+
+.nomination h3{
+    color: #0475ba;
+    padding: 1em;
+}
+.pics img{
+    border-radius: 50%;
+}
+
+/*presentation*/
+
+#presentation{
+    display: inline-block;
+    background-color: #0475ba;
+    margin-bottom: 30px;
+}
+
+#presentation h3{
+    color: white;
+    margin-left: 20%;
+    margin-top: 15px;
+}
+
+#presentation ul{
+    color: white;
+    margin-left: 20%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+/*experience professionnelles*/
+
+#experiences{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+#experiences h3{
+    color: #0475ba;
+    margin-left: 20%;
+    margin-top: 15px;
+}
+
+#experiences p{
+    margin-left: 20%;
+    margin-top: 15px;
+}
+li{
+    margin-bottom: 15px;
+}
+
+#experiences h4{
+    margin-left: 20%;
+    margin-top: 15px;
+}
+
+/*Formation*/
+
+
+#formation{
+    display: inline-block;
+    background-color: #0475ba;
+    margin-bottom: 30px;
+}
+
+#formation h3{
+    margin-left: 20%;
+    margin-top: 15px;
+    color: white;
+}
+
+#formation p{
+    margin-left: 20%;
+    margin-top: 15px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+/*passions*/
+
+#passions{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+#passions h3{
+    color: #0475ba;
+    margin-bottom: 30px;
+    margin-left: 20%;
+    margin-top: 15px;
+}
+
+#passions p{
+    margin-left: 20%;
+    margin-top: 15px;
+}
+
+/*footer*/
+
+footer{
+    display: inline-block;
+    background-color: #0475ba;
+    width: 100%;
+    height: 140px;
+}
+
+footer div{
+    display: inline-block;
+    margin-left: 10%;
+    padding-top: 20px;
+    text-decoration: none;
+
+}
+
+footer div p{
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+    color: white;
+}
+
+footer div a{
+    color: white;
+
+}
